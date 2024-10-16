@@ -7,6 +7,15 @@
   pointer-events: none;
 }
 
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +44,186 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.ultimate-background {
+  background-image: url("https://res.cloudinary.com/dnmyyqfhs/image/upload/v1728976461/image-LD8NSB19y-transformed_rvelwu.png");
+  padding: 16px;
+  height: 100vh;
+  background-size: cover;
+  min-width: 800px;
+}
+
+.nav-background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-pane {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0c2b2fb2;
+  border-radius: 48px;
+  width: 600px;
+  padding: 0px 40px;
+  height: 60px;
+}
+
+.nav-pane-items {
+  color: #b0faffb2;
+  font-size: small;
+}
+
+.header-button-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.login-button {
+  background: transparent;
+  padding-right: 20px;
+  color: #fff;
+  font-size: x-small;
+}
+
+.white-paper {
+  background: #cdfcff;
+  border-radius: 12px;
+  color: #0b2a2d;
+  box-shadow: inset 0px 0px 8px #4cddfd;
+  padding: 12px 24px 12px 24px;
+  font-size: smaller;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 100px;
+  min-width: 790px;
+}
+
+.home-title {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.investment-span {
+  background: #b0f9ff;
+  color: #0b2a2d;
+  padding: 0px 20px 4px 20px;
+  border-radius: 56px;
+}
+
+.home-description {
+  margin-top: 20px;
+  color: #b0faffb2;
+}
+
+.home-button {
+  margin-top: 20px;
+  border-radius: 12px;
+  background: #8bf9e803;
+  padding: 12px 24px 12px 24px;
+  box-shadow: inset 0px 0px 16px #0f373c;
+  color: #fff;
+}
+
+.feature-container {
+  background-size: cover;
+  padding: 20px;
+  background: linear-gradient(to bottom, #000 10%, #00161d 90%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 790px;
+  padding-top: 40px;
+}
+
+.first-features {
+  background: transparent;
+  margin-bottom: 10px;
+  width: 780px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00161d;
+  background-size: cover;
+  padding-top: 40px;
+  padding: 20px;
+  min-width: 790px;
+}
+
+.about-title {
+  color: #fff;
+}
+
+.about-description {
+  color: #b0faffb2;
+  text-align: center;
+}
+
+.about-button {
+  padding: 10px 20px 10px 20px;
+  box-shadow: inset 0px 0px 12px #4cddfd;
+  border-radius: 12px;
+  background: #cdfcff;
+}
+
+.about-image {
+  margin-top: 40px;
+  width: 580px;
+}
+
+.tokenomics-container {
+  background-image: url("https://res.cloudinary.com/dnmyyqfhs/image/upload/v1729014107/Container_2_boqis6.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  padding: 20px;
+  padding-top: 40px;
+  min-width: 790px;
+  height: 100vh;
+}
+
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00161d;
+  background-size: cover;
+  padding: 20px;
+  padding-top: 40px;
+  min-width: 790px;
+}
+
+.roadmap-title {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.roadmap-image {
+  width: 960px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: #00161d;
+  padding-top: 80px;
+  width: 100%;
 }
